@@ -1,0 +1,113 @@
+.container {
+    margin:0 auto;
+    padding: 0;
+    height: 600px;
+    width: 1000px;
+    
+}
+.banner {
+    width: 830px;
+    height: 60px;
+    background-color:lightgray;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    margin-left: 75px;
+}
+h1 {
+    font-size: 32pt;
+}
+.banner button {
+    background-color: blue;
+    color:white;
+    height: 30px;
+    width: 60px;
+}
+.banner input {
+    width: 300px;
+    height: 30px;
+}
+.lefttop {
+    border: 3px solid black;
+    width: 450px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left:75px;
+    height: 225px;
+}
+.lefttop button {
+    background-color:yellow;
+    color: black;
+    border: 3px solid black;
+    width: 100px;
+    height: 30px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h2 {
+    font-size: 24pt;
+}
+.ninja p {
+    font-size: 14pt;
+}
+.leftbottom {
+    border: 3px solid black;
+    width: 450px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 75px;
+    height: 225px;
+}
+.leftbottom button {
+    background-color:yellow;
+    color: black;
+    border: 3px solid black;
+    width: 100px;
+    height: 30px;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.rightcolumn {
+    border: 3px solid black;
+    width: 350px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 20pt;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 550px;
+    top: -542px;
+}
+.rightcolumn p {
+    width: 200px;
+}
+.rightcolumn button {
+    background-color: lightgreen;
+    color: black;
+    height: 30px;
+    width: 120px;
+    border: 3px solid black;
+}
+#definition1, #definition2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    width: 250px;
+    font-size: 18pt;
+}
